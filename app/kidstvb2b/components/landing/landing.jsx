@@ -485,6 +485,52 @@ export default function Landing() {
           </div>
         </section>
 
+        <section className="playroom section-top-border">
+          <div className="container">
+            <h2 className="section-title section-title-mb">
+              KidsTV Pegboard & Console
+            </h2>
+            <p className="white-color">
+              More than accessories, the Pegboard & Console integrate into a
+              child’s room, making KidsTV a true centerpiece for play, learning,
+              and everyday moments. Fully compatible, they can be used together
+              or separately, opening new revenue streams through lifestyle
+              solutions, not just hardware.
+            </p>
+            <ul className="playroom-list list">
+              <li className="playroom-item playroom-1"></li>
+              <li className="playroom-item playroom-2">
+                <p className="playroom-title">
+                  Pegboard – organizes toys, notes & accesories
+                </p>
+                <ul className="playroom-text-list list">
+                  <li className="playroom-text-item">• Fits TVs 32-43″</li>
+                  <li className="playroom-text-item">
+                    • Includes wall-mount bracket
+                  </li>
+                  <li className="playroom-text-item">
+                    • Upsell potential within TV ecosystem
+                  </li>
+                </ul>
+              </li>
+              <li className="playroom-item playroom-3">
+                <p className="playroom-title">
+                  TV Console – storage & brandable display
+                </p>
+                <ul className="playroom-text-list list">
+                  <li className="playroom-text-item">• Fits TVs up to 43″</li>
+                  <li className="playroom-text-item">
+                    • MDF with vinyl finish, easy to clean
+                  </li>
+                  <li className="playroom-text-item">
+                    • Works as branded retail zone
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         <section
           className="marketing-support section-top-border"
           id="marketing-support-section"
@@ -493,7 +539,7 @@ export default function Landing() {
             <h2 className="section-title section-title-mb">
               Marketing Support
             </h2>
-            <p className="white-color">
+            <p>
               Choose our KidsTV solution and get a full set of ready-made
               marketing materials—landing pages, branded packaging, in-store
               branding, and more—at no extra cost. Everything you need to boost
@@ -523,6 +569,89 @@ export default function Landing() {
               </li>
               <li className="marketing-item banners">
                 <p className="marketing-text banners-text">Display Banners</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section
+          className="benefits section-top-border"
+          id="benefits-marketing"
+        >
+          <div className="container">
+            <h2 className="section-title section-title-mb">
+              Partner Benefits & Business Value
+            </h2>
+            <ul className="benefits-list list">
+              <li className="benefets-item">
+                <p className="benefets-title">#1</p>
+                <p className="benefets-subtitle">Smart TV for Playroom</p>
+                <p className="benefets-text">
+                  Offer the world’s leading Smart TV for playroom with exclusive
+                  features and one of kind design.
+                </p>
+                <div className="show-more-wrap">
+                  <p className="show-more-text">Show More</p>
+                  <div className="benefits-icon">
+                    <img
+                      src="/kidtvb2b/img/benefits-icon.svg"
+                      alt="show more"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="benefets-item">
+                <p className="benefets-title">$50+</p>
+                <p className="benefets-subtitle">Billion Market</p>
+                <p className="benefets-text">
+                  Tap into the booming kids’ entertainment market, expand
+                  revenue streams, and grow with a high-demand family product.
+                </p>
+                <div className="show-more-wrap">
+                  <p className="show-more-text">Show More</p>
+                  <div className="benefits-icon">
+                    <img
+                      src="/kidtvb2b/img/benefits-icon.svg"
+                      alt="show more"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="benefets-item">
+                <p className="benefets-title">3+</p>
+                <p className="benefets-subtitle">Billion Potential Buyers</p>
+                <p className="benefets-text">
+                  Reach parents and grandparents looking for a safe,
+                  child-friendly entertainment solution that builds customer
+                  loyalty.
+                </p>
+                <div className="show-more-wrap">
+                  <p className="show-more-text">Show More</p>
+                  <div className="benefits-icon">
+                    <img
+                      src="/kidtvb2b/img/benefits-icon.svg"
+                      alt="show more"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="benefets-item">
+                <p className="benefets-title">≈20%</p>
+                <p className="benefets-subtitle">Margin Increase</p>
+                <p className="benefets-text">
+                  Boost profits with cost-effective production and OEM
+                  customization while offering a premium Smart TV with
+                  accessories.
+                </p>
+                <div className="show-more-wrap">
+                  <p className="show-more-text">Show More</p>
+                  <div className="benefits-icon">
+                    <img
+                      src="/kidtvb2b/img/benefits-icon.svg"
+                      alt="show more"
+                    />
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -607,89 +736,6 @@ export default function Landing() {
                   The MOQ depends on the level of customization required. Please
                   contact us for specific quantity requirements and pricing.
                 </p>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section
-          className="benefits section-top-border"
-          id="benefits-marketing"
-        >
-          <div className="container">
-            <h2 className="section-title section-title-mb">
-              Partner Benefits & Business Value
-            </h2>
-            <ul className="benefits-list list">
-              <li className="benefets-item">
-                <p className="benefets-title">#1</p>
-                <p className="benefets-subtitle">Smart TV for Playroom</p>
-                <p className="benefets-text">
-                  Offer the world’s leading Smart TV for playroom with exclusive
-                  features and one of kind design.
-                </p>
-                <div className="show-more-wrap">
-                  <p className="show-more-text">Show More</p>
-                  <div className="benefits-icon">
-                    <img
-                      src="/kidtvb2b/img/benefits-icon.svg"
-                      alt="show more"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="benefets-item">
-                <p className="benefets-title">$50+</p>
-                <p className="benefets-subtitle">Billion Market</p>
-                <p className="benefets-text">
-                  Tap into the booming kids’ entertainment market, expand
-                  revenue streams, and grow with a high-demand family product.
-                </p>
-                <div className="show-more-wrap">
-                  <p className="show-more-text">Show More</p>
-                  <div className="benefits-icon">
-                    <img
-                      src="/kidtvb2b/img/benefits-icon.svg"
-                      alt="show more"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="benefets-item">
-                <p className="benefets-title">3+</p>
-                <p className="benefets-subtitle">Billion Potential Buyers</p>
-                <p className="benefets-text">
-                  Reach parents and grandparents looking for a safe,
-                  child-friendly entertainment solution that builds customer
-                  loyalty.
-                </p>
-                <div className="show-more-wrap">
-                  <p className="show-more-text">Show More</p>
-                  <div className="benefits-icon">
-                    <img
-                      src="/kidtvb2b/img/benefits-icon.svg"
-                      alt="show more"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="benefets-item">
-                <p className="benefets-title">≈20%</p>
-                <p className="benefets-subtitle">Margin Increase</p>
-                <p className="benefets-text">
-                  Boost profits with cost-effective production and OEM
-                  customization while offering a premium Smart TV with
-                  accessories.
-                </p>
-                <div className="show-more-wrap">
-                  <p className="show-more-text">Show More</p>
-                  <div className="benefits-icon">
-                    <img
-                      src="/kidtvb2b/img/benefits-icon.svg"
-                      alt="show more"
-                    />
-                  </div>
-                </div>
               </li>
             </ul>
           </div>
