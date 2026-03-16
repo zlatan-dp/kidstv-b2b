@@ -190,7 +190,8 @@ textarea {
     height: 100vh;
     background-color: #0003265e;
 
-    transition: opacity var(--trans-dur) var(--trans-timing-function),
+    transition:
+      opacity var(--trans-dur) var(--trans-timing-function),
       visibility var(--trans-dur) var(--trans-timing-function);
   }
 
@@ -711,11 +712,8 @@ textarea {
     }
 
     .protective-fx {
-      background: linear-gradient(
-          180deg,
-          #fff 0%,
-          rgba(255, 255, 255, 0) 32.91%
-        ),
+      background:
+        linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 32.91%),
         linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 36.14%);
       position: absolute;
       width: 100%;
@@ -813,11 +811,8 @@ textarea {
     }
 
     .stand-fx {
-      background: linear-gradient(
-          180deg,
-          #fff 0%,
-          rgba(255, 255, 255, 0) 32.91%
-        ),
+      background:
+        linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 32.91%),
         linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 36.14%);
       position: absolute;
       width: 100%;
@@ -1645,10 +1640,12 @@ textarea {
                 font-weight: 600;
                 font-size: clamp(18px, 6.4vw, 28px);
                 line-height: 121%;
+                text-align: center;
                 color: var(--accent-color);
 
                 @media (min-width: 760px) {
-                  font-size: clamp(18px, 1.4vw, 28px);
+                  font-size: clamp(18px, 1.4vw, 26px);
+                  text-align: left;
                 }
               }
 
@@ -1660,7 +1657,7 @@ textarea {
                 color: var(--second-black-color);
 
                 @media (min-width: 760px) {
-                  font-size: clamp(14px, 1vw, 18px);
+                  font-size: clamp(14px, 1vw, 16px);
                 }
               }
 
