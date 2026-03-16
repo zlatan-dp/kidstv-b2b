@@ -175,7 +175,7 @@ export default function Landing() {
           </div>
           <p className="submit-menu-message" ref={submitModalMessage}></p>
           <a
-            href="https://wa.me/48781464422?text=Hello%20Anton!%20I’d%20like%20to%20discuss%20a%20B2B%20inquiry%20about%20KidsTV.%20Could%20you%20please%20provide%20more%20information%20on%20partnership%20options%20and%20how%20we%20can%20move%20forward?%20Thank%20you!"
+            href="https://wa.me/380674455789?text=Hello%20Yevhen!%20I’d%20like%20to%20discuss%20a%20B2B%20inquiry%20about%20KidsTV.%20Could%20you%20please%20provide%20more%20information%20on%20partnership%20options%20and%20how%20we%20can%20move%20forward?%20Thank%20you!"
             target="_blank"
             className="submit-message-btn link display-none"
             ref={whatsup}
